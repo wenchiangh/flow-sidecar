@@ -6,7 +6,7 @@ import typescript from "@rollup/plugin-typescript";
 export default {
   input: "src/index.ts",
   output: {
-    file: "lib/flow-sidecar.js",
+    file: "lib/FlowSidecar.scpt",
     format: "iife",
   },
   plugins: [typescript()],
